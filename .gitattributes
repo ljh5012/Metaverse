@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# 모든 텍스트 파일을 LF로 유지
+* text eol=lf
+
+# Windows 환경에서도 스크립트 파일을 LF로 유지
+*.cs text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
